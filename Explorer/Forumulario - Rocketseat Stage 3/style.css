@@ -237,3 +237,10 @@ footer .button:hover{
   cursor: pointer;
 
 }
+
+
+/* Validações */
+
+input:invalid{
+  border: 1px solid #ff1010;
+}
