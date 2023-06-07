@@ -160,7 +160,7 @@ fieldset legend {
   width: 100%;
 }
 
-.checkbox-wrapper{
+.checkbox-wrapper {
   position: relative;
 }
 .checkbox-wrapper label {
@@ -172,13 +172,13 @@ fieldset legend {
 }
 
 .checkbox-wrapper input {
-position: absolute;
-top: 0;
-left: 0;
-width: 24px;
-height: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
 
-opacity: 0;
+  opacity: 0;
 }
 
 .checkbox-wrapper label::before {
@@ -197,7 +197,43 @@ opacity: 0;
   background-position: center;
 }
 
-.checkbox-wrapper input:focus + label::before{
-  outline: 2px solid black
+.checkbox-wrapper input:focus + label::before {
+  outline: 2px solid black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 136px;
+
+  background: #f0f0f4;
+
+  padding: 40px 64px;
+  margin-bottom: 100px;
+
+  border-top: 1px solid #d6d6d6;
+  border-radius: 0 0 8px 8px;
+}
+
+footer .button {
+  height: 56px;
+
+  border: 0;
+  background: #04d361;
+  border-radius: 8px;
+
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: white;
+}
+
+
+footer .button:hover{
+  background: #13c061;
+  cursor: pointer;
 
 }
