@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 140px;
+  width: 417px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  margin-bottom: 58px;
+}
+
+header h1 {
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+header p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+body:before {
+  background: #535971;
+  content: "";
+  z-index: -1;
+
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  border-radius: 20px 20px 0 0;
+
+  width: 750px;
+  height: 1084px;
+  background-color: white;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+fieldset legend {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+
+  padding-bottom: 16px;
+  border-bottom: 1px solid black;
+}
+span {
+  color: #c1bccc;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 5px;
+}
+
+span:hover {
+  color: #66636d;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4e4958;
+}
+
+.input-wrapper input {
+  height: 56px;
+  background: #fafafc;
+
+  padding: 0 24px;
+
+  color: #66636d;
+
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  gap: 22px;
+}
+
+.name > div:nth-child(1) {
+  width: 50%;
+}
+
+.name > div:nth-child(2) {
+  width: 50%;
+}
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+}
+.col-3 > div:nth-child(1) {
+  width: 60%;
+}
+.col-3 > div:nth-child(2) {
+  width: 20%;
+}
+.col-3 > div:nth-child(3) {
+  width: 20%;
+}
+
+.second-title strong {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #535971;
+  display: flex;
+  margin: 32px 0 11px 0;
+}
+
+footer {
+  margin-bottom: 100px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 71px;
+  background: #535971;
+
+  border-radius: 0 0 20px 20px;
+  justify-content: center;
+}
+
+.button {
+  padding: 15px 40px;
+  border-radius: 20px;
+  border: none;
+
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: white;
+
+  background: #FF5374;
+}
+
+.button:hover{
+  background: #ac384f;
+  cursor: pointer;
+}
+
+
+/* input:invalid{
+  border: 1px solid #ff0000;
+} */
+
